@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 # Copyright (c) 2023 architalia
-# This source code is licensed under the MIT license found in the license file.
 
-# nounset: Treat unset variables and parameters as an error when performing parameter expansion
-# errexit: Exit immediately if any command exits with a non-zero status
 set -o nounset -o errexit
 
 # Appends the given profile UUID to the profile list.
